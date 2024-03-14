@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: temple;
+    font-weight: normal;
+    user-select: none;
+}
+@font-face {
+    font-family: temple;
+    src: url(../font/templeos_font.ttf);
+}
+html, body {
+    overflow: hidden;
+}
+.adam {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+}
+.adam_header {
+    width: 100%;
+    height: 17px;
+    padding: 0 5px;
+    background:  #0000a8;
+}
+.eve {
+    max-width: 100%;
+    height: 100%;
+    margin: 5px;
+    color: #0000a8;
+    border: #5757ff double 9px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.eve h2 {
+    position: absolute;
+    left: 17px;
+    width: fit-content;
+    max-height: 16px;
+    margin-top: -12px;
+    padding: 1px 0 0 0;
+    color: #fff;
+    background: #5757ff;
+}
+.eve_content {
+    max-width: 100%;
+    height: fit-content;
+}
+.eve_title {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    flex-direction: column;
+}
+.eve_output {
+    margin: 10px 3px;
+}
+.eve_cli {
+    width: 100%;
+    margin: 10px 3px;
+}
+.eve_help {
+    max-width: 30%;
+    height: fit-content;
+    margin: 5px;
+    color: #0000a8;
+    border: #5757ff double 9px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.eve_help button {}
+span{
+    float: left;   
+}
+textarea {
+    width: calc(100% - 128px);
+    background: none;
+    border: none;
+    resize: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+a {
+    background: #fff;
+    color: #a80000;
+}
+a:hover {
+    filter: invert(1);
+    mix-blend-mode: difference;
+}
+.underline {
+    text-decoration: underline;
+}
+/* COLORS */
+.lightgrey {color: #a8a8a8;}
+.darkgrey {color:  #575757;}
+.lightblue {color: #5757ff;}
+.lightgreen {color: #57ff57;}
+.lightcyan {color: #57ffff;}
+.lightred {color: #ff5757;}
+.lightpurple {color: #ff57ff;}
+.red {color: #a80000;}
+.green {color: #00a800;}
+.blue {color: #0000a8;}
+.cyan {color: #00a8a8;}
+.purple {color: #a800a8;}
+.brown {color: #a85700;}
+.yellow {color: #ffff57;}
+.black {color: #000;}
+.white {color: #fff;}
